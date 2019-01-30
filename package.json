@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "make custom burger",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakesh672/Burger.git"
+  },
+  "author": "rakesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rakesh672/Burger/issues"
+  },
+  "homepage": "https://github.com/rakesh672/Burger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "file-exists": "^5.0.1",
+    "fs": "0.0.1-security"
+  }
+}
